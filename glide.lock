@@ -1,0 +1,48 @@
+hash: a1452cd310b502560dfb4f18e4caca60a9a23cbff4c4f7485e445ec61a4a14c7
+updated: 2017-01-19T13:23:12.182756342-06:00
+imports:
+- name: github.com/gocql/gocql
+  version: b6e5fc4b08a956657367e1ab9eb38e65a6ab6abe
+  subpackages:
+  - internal/lru
+  - internal/murmur
+  - internal/streams
+- name: github.com/golang/snappy
+  version: 7db9049039a047d955fe8c19b83c8ff5abd765c7
+- name: github.com/google/flatbuffers
+  version: b29ba4c70c7b8ef415e37809574ac74a9bf0b632
+  subpackages:
+  - go
+- name: github.com/hailocab/go-hostpool
+  version: e80d13ce29ede4452c43dea11e79b9bc8a15b478
+- name: github.com/klauspost/compress
+  version: 6c8db69c4b49dd4df1fff66996cf556176d0b9bf
+  subpackages:
+  - flate
+  - gzip
+  - zlib
+- name: github.com/klauspost/cpuid
+  version: 09cded8978dc9e80714c4d85b0322337b0a1e5e0
+- name: github.com/klauspost/crc32
+  version: cb6bfca970f6908083f26f39a79009d608efd5cd
+- name: github.com/pkg/profile
+  version: 1c16f117a3ab788fdf0e334e623b8bccf5679866
+- name: github.com/valyala/fasthttp
+  version: d42167fd04f636e20b005e9934159e95454233c7
+  subpackages:
+  - fasthttputil
+  - reuseport
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+- name: gopkg.in/inf.v0
+  version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+testImports: []
