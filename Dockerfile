@@ -20,4 +20,4 @@ ENV URLS http://localhost:8086
 ENV WORKERS 10
 ENV DB_CREATE false
 
-CMD bulk_load_influx -urls $URLS -workers $WORKERS -do-db-create $DB_CREATE
+CMD bulk_load_influx -urls=$URLS -workers=$WORKERS -do-db-create=$DB_CREATE
